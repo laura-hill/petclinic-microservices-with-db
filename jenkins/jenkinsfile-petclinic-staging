@@ -11,8 +11,8 @@ pipeline {
         // Get the project-id from Rancher UI (projects/namespaces --> petclinic-cluster-staging namespace --> Edit yaml --> copy projectId )
         RANCHER_CONTEXT="c-wrwkp:p-bd2ff" 
        //First part of projectID
-        CLUSTERID="petclinic-cluster"
-        RANCHER_CREDS=credentials('rancher-petclinic-credentials')
+        CLUSTERID="c-wrwkp"
+        RANCHER_CREDS=credentials('472d2861-0ccc-4f12-8499-e9f16b5719b3')
     }
     stages {
         stage('Package Application') {
