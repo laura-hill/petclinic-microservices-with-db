@@ -12,7 +12,7 @@ pipeline {
         RANCHER_CONTEXT="c-jpvh4:p-jch47" 
        //First part of projectID
         CLUSTERID="c-jpvh4"
-        RANCHER_CREDS=credentials('rancher-petclinic-credentials')
+        RANCHER_CREDS=credentials('472d2861-0ccc-4f12-8499-e9f16b5719b3')
     }
     stages {
         stage('Package Application') {
